@@ -1,0 +1,30 @@
+{
+  "name": "shopify-mcp-sse-server",
+  "version": "1.0.0",
+  "description": "SSE server for Shopify MCP integration with n8n",
+  "main": "server-simple.js",
+  "scripts": {
+    "start": "node server-simple.js",
+    "dev": "nodemon server-simple.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shopify",
+    "mcp",
+    "sse",
+    "n8n",
+    "server-sent-events"
+  ],
+  "author": "Vinay Radhakrishnan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
